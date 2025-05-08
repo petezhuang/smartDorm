@@ -1,0 +1,23 @@
+.tempreature{
+    grid-column: '1 / 2'; 
+    grid-row: '1 / 2';
+}
+
+.device{
+    grid-column: '2 / 3'; 
+    grid-row: '1 / 3';
+}
+
+.sit{
+    grid-column: ' 1/ 2'; 
+    grid-row: '2 / 3';
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* 防止滚动条出现 */
+    height: 100%;
+    width: 100%;
+}
+  
