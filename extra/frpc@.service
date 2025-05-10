@@ -1,0 +1,14 @@
+[Unit]
+Description=SakuraFrp Service
+After=network.target
+
+[Service]
+Type=idle
+#DynamicUser=yes
+Restart=on-failure
+RestartSec=60s
+ExecStart=/usr/local/bin/frpc -f %i
+WorkingDirectory=/usr/local/etc/natfrp
+
+[Install]
+WantedBy=multi-user.target
