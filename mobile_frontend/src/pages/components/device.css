@@ -5,4 +5,9 @@
     align-items: center;     /* 水平居中 */
     height: 90vh;           /* 撑满整个视口高度 */
   }
-  
+.lamp{
+    margin-bottom: 20px;
+}
+.lamp_intensity{
+    margin-bottom: 20px;
+}

@@ -13,7 +13,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:3000',
+        target: 'https://www.u2601175.nyat.app:15108',
         changeOrigin: true
       }
     }

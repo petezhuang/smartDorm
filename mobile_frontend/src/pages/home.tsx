@@ -3,6 +3,7 @@ import "./home.css";
 import TempDisplay from "./components/tempDisplay";
 import Device from "./components/device";
 import Sit from "./components/sit";
+import { Button } from "antd";
 
 export default function Home() {
   useEffect(() => {
@@ -35,7 +36,6 @@ export default function Home() {
         }}
       >
         <div className="tempreature">
-          <h2 style={{color:''}}>温度显示</h2>
           <TempDisplay />
         </div>
 
