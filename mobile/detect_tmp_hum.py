@@ -3,11 +3,6 @@ import time
 import random
 
 def get_result():
-    first_value = round(random.uniform(24, 24.5), 1)
-    second_value = round(random.uniform(50, 55), 1)
-    return (first_value, second_value)
-
-def get_tmp_hum():
     bit = []
     dura_time = []
 

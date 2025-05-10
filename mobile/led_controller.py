@@ -48,9 +48,7 @@ def monitor_human():
 
     while True:
         # 捕获图像
-        img=cv2.imread("./DZ.jpg")
-        #frame = picam2.capture_array()
-        frame=img.copy()
+        frame = picam2.capture_array()
 
         # 转换为灰度图（人脸检测需要）
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
